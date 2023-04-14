@@ -1,5 +1,3 @@
-# sys is a library/ module short for system
-# we'll bring a special function
 from sys import exit 
 
 def gold_room():
@@ -35,7 +33,7 @@ def bear_room():
     print("The fat bear is in front of another door. ")
     print("How are you going to move the bear? ")
     bear_moved = False
-    # bear_moved is a boolean variable
+    
 
     while True:
         choice = input("> ")
@@ -91,8 +89,7 @@ def start():
         dead("You stumble around the room until you starve. ")
 
 start()
-# function "start" is defined above
-# this is the only function automaticaly run in this code 
+
 
 
 
